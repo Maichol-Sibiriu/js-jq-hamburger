@@ -1,14 +1,13 @@
 // come aprire menu con un click
-var hamburger = $(".hamburger-menu");
-var list = $(".hamburger-menu ul li a")
+var hamburger = $(".fa-bars");
+var list = $(".hamburger-menu");
 hamburger.click( function() {
    list.show();
 });
 
 
-
-
 // come chiudere menu con un click
-// hamburger.click( function() {
-//
-// });
+var close = $(".close")
+close.click( function() {
+  list.hide();
+});
